@@ -1,6 +1,6 @@
 object Libs {
 
-   const val kotlinVersion = "1.4.31"
+   const val kotlinVersion = "1.6.21"
    const val org = "io.kotest.extensions"
 
    object Kotlin {
