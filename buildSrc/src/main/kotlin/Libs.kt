@@ -16,6 +16,6 @@ object Libs {
    }
 
    object JSoup {
-      const val jsoup = "org.jsoup:jsoup:1.13.1"
+      const val jsoup = "org.jsoup:jsoup:1.16.1"
    }
 }
