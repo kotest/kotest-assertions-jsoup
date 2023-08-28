@@ -42,7 +42,7 @@ infix fun Element.shouldNotHaveText(expectedText: String) = this shouldNot haveT
 fun haveText(expectedText: String) = object : Matcher<Element> {
    override fun test(value: Element) = MatcherResult(
       value.text() == expectedText,
-      "Element ${value.tagName()} should have text $expectedText. But instead was $expectedText",
+      "Element ${value.tagName()} should have text $expectedText. But instead was ${value.text()}",
       "Element ${value.tagName()} should not have text $expectedText"
    )
 }
